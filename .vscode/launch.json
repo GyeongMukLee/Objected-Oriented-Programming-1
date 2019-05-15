@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TelevisionExample",
+            "request": "launch",
+            "mainClass": "TelevisionExample",
+            "projectName": "Objected-oriented-programming-1_a5b3ae80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculatorExample",
+            "request": "launch",
+            "mainClass": "CalculatorExample",
+            "projectName": "Objected-oriented-programming-1_a5b3ae80"
+        }
+    ]
+}
