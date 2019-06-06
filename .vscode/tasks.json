@@ -4,13 +4,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "java 컴파일",
+            "label": "Java 컴파일",
             "group": "build",
             "type": "shell",
             "command": "javac",
             "args": [
                 "-classpath",
                 "${fileDirname}",
+                "-encoding",
+                "UTF-8",
                 "${file}"
             ],
         },
@@ -22,7 +24,7 @@
             "args": [
                 "-classpath",
                 "${fileDirname}",
-                "${fileBasenameNoExtension}.class"
+                "${fileDirname}\\${fileBasenameNoExtension}.class"
             ]
         }
     ]
